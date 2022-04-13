@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Universe</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="./css/destaques.css">
+    <link rel="stylesheet" href="./css/populares.css">
+    <link rel="stylesheet" href="./css/rodape.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+</head>
+
+<body class = 'corpo'>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a href="#" class="menu__link ativo link">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                    <a href="#" class="menu__link link">
+                        <i class="fa-solid fa-book-open"></i>
+                        Livros
+                    </a>
+                    <a href="#" class="menu__link link">
+                        <i class="fa-solid fa-file"></i>
+                        Resumos
+                    </a>
+                    <a href="#" class="menu__link link">
+                        <i class="fa-solid fa-ranking-star"></i>
+                        Categorias
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="pesquisa">
+            <ul class="pesquisa__lista">
+                <li class="pesquisa__lista__link">
+                    <a href="#" class="pesquisa__link link">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        Search
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <section class="destaques">
+            <div class="destaques__principal caixa">
+                <h3 class="destaques__titulo">DISTOPIA</h3>
+            </div>
+            <div class="destaques__secundario caixa">
+                <h3 class="destaques__titulo">AVENTURA</h3>
+            </div>
+            <div class="destaques__secundario caixa">
+                <h3 class="destaques__titulo">SCI-FI</h3>
+            </div>
+            <div class="destaques__secundario caixa">
+                <h3 class="destaques__titulo">FANTASIA</h3>
+            </div>
+            <div class="destaques__secundario caixa">
+                <h3 class="destaques__titulo">TERROR</h3>
+            </div>
+
+            <div class="destaques__categorias">
+                <ul class="destaques__categorias__lista">
+                    <li class="destaques__categorias__item">
+                        <a href="#" class="destaques__categorias__link">
+                            <i class="fa-solid fa-medal"></i>
+                            Best-Sellers
+                        </a>
+                    </li>
+                    <li class="destaques__categorias__item">
+                        <a href="#" class="destaques__categorias__link">
+                            <i class="fa-solid fa-person"></i>
+                        Biografias
+                        </a>
+                    </li>
+                    <li class="destaques__categorias__item">
+                        <a href="#" class="destaques__categorias__link">
+                            <i class="fa-solid fa-book"></i>
+                            Clássicos
+                        </a>
+                    </li>
+                    <li class="destaques__categorias__item">
+                        <a href="#" class="destaques__categorias__link">
+                            <i class="fas fa-mobile-alt"></i>
+                            Kindle
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="populares">
+            <div class="populares__itens">
+                <div class="populares__info">
+                    <div class="populares__cabecalho">
+                        <h4 class="populares__titulo">
+                            <i class="populares__icone fa-solid fa-medal"></i>
+                            Best Sellers
+                        </h4>
+                        <button class="populares__botao">
+                            <i class="populares__icone fa-solid fa-bars"></i>
+                            Visualizar todos
+                        </button>
+                    </div>
+                </div>
+
+                <div class="populares__conteudo">
+                    <div class="populares__cartao">
+                        <img src="./imgs/harry.jpg" alt="Capa do livro Harry Potter e a Pedra Filosofal" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">Harry Potter e a Pedra Filosofal</h5>
+                                <h6 class="populares__cartao__autor">J. K. Rowling</h6>
+                            </div>
+
+                            <div class="populares__cartao__descricao">
+                                Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="populares__cartao">
+                        <img src="./imgs/duna.jpg" alt="Capa do livro Duna" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">Duna</h5>
+                                <h6 class="populares__cartao__autor">Frank Herbert</h6>
+                            </div>
+
+                            <div class="populares__cartao__descricao">
+                                Uma estonteante mistura de aventura e misticismo, ecologia e política, este romance ganhador dos prêmios Hugo e Nebula deu início a uma das mais épicas histórias de toda a ficção científica... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="populares__cartao">
+                        <img src="./imgs/passagem.jpg" alt="Capa do livro A Passagem" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">A Passagem</h5>
+                                <h6 class="populares__cartao__autor">Justin Cronin</h6>
+                            </div>
+                            <div class="populares__cartao__descricao">
+                                Quase um século depois que uma pesquisa cientifica financiada pelo Exército dos Estados Unidos foge do controle, tudo o que resta é uma paisagem apocalíptica. As cobaias utilizadas nos experimentos... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="populares__cartao">
+                        <img src="./imgs/origem.jpg" alt="Capa do livro Origem" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">Origem</h5>
+                                <h6 class="populares__cartao__autor">Dan Brown</h6>
+                            </div>
+                            <div class="populares__cartao__descricao">
+                                Robert Langdon, o famoso professor de Simbologia de Harvard, chega ao Museu Guggenheim de Bilbao para assistir a uma apresentação do futurólogo e bilionário Edmond Kirsch... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="populares__cartao">
+                        <img src="./imgs/kevin.jpg" alt="Capa do livro Precisamos Falar Sobre O Kevin" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">Precisamos Falar Sobre O Kevin</h5>
+                                <h6 class="populares__cartao__autor">Lionel Shriver</h6>
+                            </div>
+                            <div class="populares__cartao__descricao">
+                                Aos 15 anos, o personagem Kevin mata 11 pessoas, entre colegas no colégio e familiares. Enquanto ele cumpre pena, a mãe Eva amarga a monstruosidade do filho. Entre culpa e solidão, ela apenas sobrevive... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="populares__itens">
+                <div class="populares__info">
+                    <div class="populares__cabecalho">
+                        <h4 class="populares__titulo">
+                            <i class="populares__icone fa-solid fa-book-bookmark"></i>
+                            Distopias
+                        </h4>
+                        <button class="populares__botao">
+                            <i class="populares__icone fa-solid fa-bars"></i>
+                            Visualizar todos
+                        </button>
+                    </div>
+                </div>
+
+                <div class="populares__conteudo">
+                    <div class="populares__cartao">
+                        <img src="./imgs/admiravel.jpg" alt="Capa do livro Admirável Mundo Novo" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">Admirável Mundo Novo</h5>
+                                <h6 class="populares__cartao__autor">Aldous Huxley</h6>
+                            </div>
+                            <div class="populares__cartao__descricao">
+                                Um clássico moderno, o romance distópico de Aldous Huxley é incontornável para quem procura um dos exemplos mais marcantes da tematização de estados autoritários, ao lado de 1984... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="populares__cartao">
+                        <img src="./imgs/laranja.jpg" alt="Capa do livro Laranja Mecânica" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">Laranja Mecânica</h5>
+                                <h6 class="populares__cartao__autor">Anthony Burgess</h6>
+                            </div>
+                            <div class="populares__cartao__descricao">
+                                Alex é o jovem líder de uma gangue de adolescentes cuja diversão é cometer perversidades e atos de violência pelas ruas de uma cidade futurista governada por um Estado repressivo e totalitário... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="populares__cartao">
+                        <img src="./imgs/bichos.jpg" alt="Capa do livro A Revolução dos Bichos" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">A Revolução dos Bichos</h5>
+                                <h6 class="populares__cartao__autor">George Orwell</h6>
+                            </div>
+                            <div class="populares__cartao__descricao">
+                                Escrita em plena Segunda Guerra Mundial e publicada em 1945 depois de ter sido rejeitada por várias editoras, essa pequena narrativa causou desconforto ao satirizar ferozmente a ditadura stalinista... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="populares__cartao">
+                        <img src="./imgs/fahrenheit.jpg" alt="Capa do livro Fahrenheit 451" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">Fahrenheit 451</h5>
+                                <h6 class="populares__cartao__autor">Ray Bradbury</h6>
+                            </div>
+                            <div class="populares__cartao__descricao">
+                                Guy Montag é um bombeiro. Sua profissão é atear fogo nos livros. Em um mundo onde as pessoas vivem em função das telas e a literatura está ameaçada de extinção, os livros são objetos proibidos... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="populares__cartao">
+                        <img src="./imgs/1984.jpg" alt="Capa do livro 1984" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">1984</h5>
+                                <h6 class="populares__cartao__autor">George Orwell</h6>
+                            </div>
+                            <div class="populares__cartao__descricao">
+                                Winston, herói de 1984, último romance de George Orwell, vive aprisionado na engrenagem totalitária de uma sociedade completamente dominada pelo Estado, onde tudo é feito coletivamente... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="populares__itens">
+                <div class="populares__info">
+                    <div class="populares__cabecalho">
+                        <h4 class="populares__titulo">
+                            <i class="populares__icone fa-solid fa-book"></i>
+                            Clássicos
+                        </h4>
+                        <button class="populares__botao">
+                            <i class="populares__icone fa-solid fa-bars"></i>
+                            Visualizar todos
+                        </button>
+                    </div>
+                </div>
+
+                <div class="populares__conteudo">
+                    <div class="populares__cartao">
+                        <img src="./imgs/algernon.jpg" alt="Capa do livro Flores para Algernon" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">Flores Para Algernon</h5>
+                                <h6 class="populares__cartao__autor">Daneil Keyes</h6>
+                            </div>
+                            <div class="populares__cartao__descricao">
+                                Com excesso de erros no início do romance, os relatos de Charlie revelam sua condição limitada, consequência de uma grave deficiência intelectual, que ao menos o mantém protegido dentro de um “mundo” particular... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="populares__cartao">
+                        <img src="./imgs/menina.jpg" alt="Capa do livro A Menina que Roubava Livros" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">A Menina que Roubava Livros</h5>
+                                <h6 class="populares__cartao__autor">Markus Zusak</h6>
+                            </div>
+                            <div class="populares__cartao__descricao">
+                                A trajetória de Liesel Meminger é contada por uma narradora mórbida, surpreendentemente simpática. Ao perceber que a pequena ladra de livros lhe escapa, a Morte afeiçoa-se à menina e rastreia suas pegadas de 1939 a 1943... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="populares__cartao">
+                        <img src="./imgs/natureza.jpg" alt="Capa do livro Na Natureza Selvagem" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">Na Natureza Selvagem</h5>
+                                <h6 class="populares__cartao__autor">Jon Krakauner</h6>
+                            </div>
+                            <div class="populares__cartao__descricao">
+                                Narrativa verídica sobre sonhos de juventude que se transformam em pesadelo. O corpo em decomposição de um jovem é encontrado no Alasca. A polícia descobrirá que se trata do filho de uma família rica... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="populares__cartao">
+                        <img src="./imgs/codigo.jpg" alt="Capa do livro O Código da Vinci" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">O Código da Vinci</h5>
+                                <h6 class="populares__cartao__autor">Dan Brown</h6>
+                            </div>
+                            <div class="populares__cartao__descricao">
+                                Um assassinato no Museu do Louvre traz à tona uma sinistra conspiração para revelar um segredo que foi protegido por uma sociedade secreta desde os tempos de Jesus Cristo... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="populares__cartao">
+                        <img src="./imgs/sertao.jpg" alt="Capa do livro Grande Sertão Veredas" class="populares__cartao__imagem">
+                        <div class="populares__cartao__corpo">
+                            <div class="populares__cartao__cabecalho">
+                                <h5 class="populares__cartao__titulo">Grande Sertão Veredas</h5>
+                                <h6 class="populares__cartao__autor">Guimarães Rosa</h6>
+                            </div>
+                            <div class="populares__cartao__descricao">
+                                Publicado originalmente em 1956, Grande sertão: veredas, de João Guimarães Rosa, revolucionou o cânone brasileiro e segue despertando o interesse de renovadas gerações de leitores... <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__conteudo">
+            <h5 class="rodape__conteudo__dono">Caio Lagreca</h5>
+            <h6 class="rodape__conteudo__direitos">Todos os direitos reservados &copy;2022</h6>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/c92604a6d9.js" crossorigin="anonymous"></script>
+</body>
+</html>

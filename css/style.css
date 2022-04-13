@@ -1,0 +1,21 @@
+.corpo{
+    background: rgb(231, 236, 235);
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    display: grid;
+    grid-template-areas:
+        'cabecalho'
+        'conteudo'
+        'rodape';
+    grid-template-columns: auto;
+    grid-template-rows: 3rem auto auto;
+}
+
+.principal{
+    grid-area: conteudo;
+    padding: 0 2rem;
+}
+
+.a:hover, button:hover{
+    cursor:pointer;
+}

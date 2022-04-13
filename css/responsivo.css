@@ -1,0 +1,121 @@
+@media screen and (min-width: 0){
+    
+    .destaques__principal,
+    .destaques__categorias{
+        grid-column: 1 / 4;
+    }
+
+
+    .destaques__secundario:nth-child(2),
+    .destaques__secundario:nth-child(3),
+    .destaques__secundario:nth-child(4),
+    .destaques__secundario:nth-child(5){
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .populares__conteudo{
+        flex-direction: column;
+    }
+
+    .populares__cartao{
+        grid-template-rows: auto 40vh;
+        margin: 1rem 0 1rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .destaques__principal{
+        grid-column: 1 / 3;
+    }
+
+    .destaques__secundario:nth-child(2){
+        display: flex;
+        grid-column: 3 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .destaques__secundario:nth-child(3){
+        display: flex;
+        grid-column: 3 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .destaques__secundario:nth-child(4){
+        display: flex;
+        grid-column: 3 / 3;
+        grid-row: 3 / 3;
+    }
+
+    .destaques__secundario:nth-child(5){
+        display: flex;
+        grid-column: 2 / 3;
+        grid-row: 3 / 3;
+    }
+
+    .destaques__categorias{
+        display: flex;
+        grid-column: 1 / 1;
+        grid-row: 3 / 3;
+    }
+    
+    .populares__conteudo{
+        flex-direction: row;
+    }
+
+    .populares__cartao{
+        grid-template-rows: auto 35vh;
+        width: calc(50% - 3rem);
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    .populares__cartao{
+        grid-template-rows: 55vh 42vh;
+        width: calc(33.33% - 2rem);
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    .populares__cartao{
+        width: 18%;
+        grid-template-rows: 40vh 52vh;
+        margin: 0 .5rem 2rem .5rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pesquisa{
+        order: -1;
+        width: 100%;
+
+    }
+
+    .menu{
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .menu__item{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu__link i{
+        display: none;
+    }
+
+    .principal{
+        margin: .5rem 0;
+    }
+}
