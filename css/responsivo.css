@@ -96,6 +96,8 @@
     }
 
     .pesquisa{
+        display: flex;
+        justify-content: end;
         order: -1;
         width: 100%;
 
