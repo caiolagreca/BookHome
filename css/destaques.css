@@ -21,6 +21,10 @@
     font-weight: bold;
 }
 
+.caixa:hover{
+   cursor: pointer;
+}
+
 .destaques__principal{
     background: url('../imgs/distopia.webp') center / cover no-repeat;
     grid-row: 1 / 3;
